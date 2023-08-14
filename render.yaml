@@ -2,7 +2,7 @@ services:
   - type: web
     name: strapi
     env: node
-    plan: starter
+    plan: free
     buildCommand: npm install && npm build
     startCommand: rsync -a public/ /data/public/ && npm start
     healthCheckPath: /_health
@@ -10,7 +10,6 @@ services:
     disk:
       name: strapi-data
       mountPath: /data
-      plane: free
     envVars:
       - key: NODE_VERSION
         value: ~16.14.0
