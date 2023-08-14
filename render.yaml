@@ -3,12 +3,12 @@ services:
     name: strapi
     env: node
     plan: free
-    buildCommand: npm install && npm run build # Use 'npm run build' instead of 'npm build'
+    buildCommand: npm install && npm run build
     startCommand: rsync -a public/ /data/public/ && npm start
     healthCheckPath: /_health
     autoDeploy: false
     envVars:
-      NODE_VERSION: ~16.14.0 # Use a different syntax for specifying environment variables
+      NODE_VERSION: "16.14.0"
       NODE_ENV: production
       DATABASE_FILENAME: /data/strapi.db
       JWT_SECRET:
