@@ -9,7 +9,6 @@ services:
     autoDeploy: false
     envs:
     -key: DATABASE_URL
-     scope: RUN_AND_BUILD_TIME
      value: myrenderDB
       
 
