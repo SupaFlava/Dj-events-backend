@@ -3,7 +3,7 @@ services:
     name: strapi
     env: node
     plan: free
-    buildCommand: npm install && npn run build
+    buildCommand: npm install && npm run build
     startCommand: npm start
     healthCheckPath: /_health
     autoDeploy: false
