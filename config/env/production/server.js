@@ -1,5 +1,5 @@
 module.exports = ({ env }) => ({
-  url: env("RENDER_EXTERNAL_URL"),
+  url: env("https://strapi-ksl6.onrender.com/"),
   dirs: {
     public: "/data/public",
   },
