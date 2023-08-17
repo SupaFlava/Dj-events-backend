@@ -4,7 +4,7 @@ services:
     env: node
     plan: free
     buildCommand: npm install && npm run build
-    startCommand: npm start
+    startCommand: rsync -a public / /data/public/ && npm start
     healthCheckPath: /_health
     autoDeploy: false
     envVars:
