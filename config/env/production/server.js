@@ -1,6 +1,7 @@
 module.exports = ({ env }) => ({
-  url: env("https://strapi-ksl6.onrender.com/"),
-  dirs: {
-    public: "/data/public",
+  host: env("HOST", "0.0.0.0"),
+  port: env.int("PORT", 1337),
+  app: {
+    keys: env.array("APP_KEYS"),
   },
 });
