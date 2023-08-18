@@ -1,57 +1,48 @@
-# 🚀 Getting started with Strapi
+# Dj Events - Backend
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+Welcome to the backend repository of the Dj Events Application, built using Strapi. This project is part of a comprehensive course I took, focused on developing applications with Next.js and integrating them with a Strapi backend. In this specific repository, it covers the backend implementation of the Dj Events Application. The frontend repository can be found [here](https://github.com/Supaflava/dj-events-frontend).
 
-### `develop`
+## Table of Contents
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+- [Description](#description)
+- [Getting Started](#getting-started)
+- [Technologies](#technologies)
 
-```
-npm run develop
-# or
-yarn develop
-```
+## Description
 
-### `start`
+This project-based course provides practical experience in building the backend for the Dj Events Application using Strapi. The backend serves as the foundation for storing, managing, and delivering data to the frontend.
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
+Key learned points include:
 
-```
-npm run start
-# or
-yarn start
-```
+- Setting up Strapi as a headless CMS for managing content.
+- Designing content types and structures for the application.
+- Creating API endpoints for data retrieval and manipulation.
+- Implementing user authentication using JSON Web Tokens (JWT).
+- Ensuring data security and access control through authorization mechanisms.
 
-### `build`
+## Getting Started
 
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
+To start working with the backend of the Dj Events Application, follow these steps:
 
-```
-npm run build
-# or
-yarn build
-```
+1. Clone this repository: `git clone https://github.com/Supaflava/dj-events-backend`
+2. Navigate to the project directory: `cd dj-events-backend-v2`
+3. Install dependencies: `npm install`
+4. Set up your database credentials in `config/database.js`.
+5. Start the Strapi development server: `npm run develop`
+6. Access the Strapi admin panel at: `http://localhost:1337/admin`
 
-## ⚙️ Deployment
+## Technologies
 
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
+The backend of the Dj Events Application is built using the following technologies:
 
-## 📚 Learn more
+- Strapi V4
+- Node.js
+- sqlite
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
+## Usage
 
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
+This repository serves as the backend component of the Dj Events Application. It provides the necessary API endpoints and content management functionality to support the frontend. Feel free to customize and extend this backend to match your requirements.
 
-## ✨ Community
+## Contributing
 
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+Contributions to this repository are welcome! If you encounter any issues or wish to enhance the backend, please submit a pull request.
